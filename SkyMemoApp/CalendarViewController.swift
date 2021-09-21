@@ -12,6 +12,7 @@ class CalendarViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("제발")
+        print("되라되라ㅏㅏㅏ")
 
         // Do any additional setup after loading the view.
     }
