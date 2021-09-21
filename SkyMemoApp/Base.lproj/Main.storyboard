@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JAl-eC-NCA">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="NotoSansKR-Medium.otf">
+            <string>NotoSansKR-Medium</string>
+        </array>
+        <array key="NotoSansKR-Thin.otf">
+            <string>NotoSansKR-Thin</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Create View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CreateViewController" customModule="SkyMemoApp" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 하늘 기록하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0T-3f-PCw">
+                                <rect key="frame" x="108" y="157.5" width="198" height="36.5"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Thin" family="Noto Sans KR" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210903" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97u-Gh-gur">
+                                <rect key="frame" x="180" y="226.5" width="54" height="25"/>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Thin" family="Noto Sans KR" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="한줄 기록" textAlignment="center" minimumFontSize="17" background="Textfield" translatesAutoresizingMaskIntoConstraints="NO" id="QVf-C5-3ri">
+                                <rect key="frame" x="37" y="603.5" width="340" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Eep-WR-EBS"/>
+                                    <constraint firstAttribute="width" constant="340" id="tTD-eR-btJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="NotoSansKR-Medium" family="Noto Sans KR" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I1l-8y-K6g">
+                                <rect key="frame" x="166.5" y="683.5" width="81" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="81" id="7pN-qj-Uvw"/>
+                                    <constraint firstAttribute="height" constant="48" id="UBH-F1-28G"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" image="CreateButton"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qCM-QY-eEp">
+                                <rect key="frame" x="72" y="293.5" width="270" height="270"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qCM-QY-eEp" secondAttribute="height" multiplier="1:1" id="7Nh-Pa-q8x"/>
+                                    <constraint firstAttribute="width" constant="270" id="yDO-q5-v5a"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qCM-QY-eEp" firstAttribute="top" secondItem="97u-Gh-gur" secondAttribute="bottom" constant="42" id="6LN-8a-TTO"/>
+                            <constraint firstItem="97u-Gh-gur" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="H6J-ZQ-FWq"/>
+                            <constraint firstItem="qCM-QY-eEp" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KAl-Aj-70x"/>
+                            <constraint firstItem="I1l-8y-K6g" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="L2W-yx-cE2"/>
+                            <constraint firstItem="97u-Gh-gur" firstAttribute="top" secondItem="A0T-3f-PCw" secondAttribute="bottom" constant="32.5" id="P2Z-b2-8fn"/>
+                            <constraint firstItem="QVf-C5-3ri" firstAttribute="top" secondItem="qCM-QY-eEp" secondAttribute="bottom" constant="40" id="XGn-Te-PYO"/>
+                            <constraint firstItem="I1l-8y-K6g" firstAttribute="top" secondItem="QVf-C5-3ri" secondAttribute="bottom" constant="30" id="XSV-u7-0EP"/>
+                            <constraint firstItem="qCM-QY-eEp" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="ZoP-cd-DCj"/>
+                            <constraint firstItem="A0T-3f-PCw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="eEP-fl-028"/>
+                            <constraint firstItem="QVf-C5-3ri" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="yQN-Gx-vry"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="CreateTabUnselected" selectedImage="CreateTabSelected" id="8Qf-6j-KXJ"/>
+                    <navigationItem key="navigationItem" id="vdY-ul-oBc"/>
+                    <connections>
+                        <outlet property="createButton" destination="I1l-8y-K6g" id="tlg-1n-YqZ"/>
+                        <outlet property="memoTextField" destination="QVf-C5-3ri" id="mU0-ma-waG"/>
+                        <outlet property="selectImageView" destination="qCM-QY-eEp" id="oGu-77-qId"/>
+                        <outlet property="todayLabel" destination="97u-Gh-gur" id="DtS-Zs-2Wf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1078.2608695652175" y="87.053571428571431"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="UE8-jX-w5s">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="JAl-eC-NCA" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fhS-vR-ae2">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="Iqs-Oh-wS5"/>
+                        <segue destination="fQL-4J-g7E" kind="relationship" relationship="viewControllers" id="Vuh-4z-oUr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QD5-d7-gGm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="105.79710144927537" y="88.392857142857139"/>
+        </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="bmQ-FV-tOp">
+            <objects>
+                <viewController id="fQL-4J-g7E" customClass="CalendarViewController" customModule="SkyMemoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yc2-e0-7hs">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="DKG-19-8AN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" selectedImage="calendar" catalog="system" id="lb2-as-qL9"/>
+                    <navigationItem key="navigationItem" id="iMw-Wu-dM0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t6v-Lq-2sI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1080" y="822"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CreateButton" width="108" height="64"/>
+        <image name="CreateTabSelected" width="40" height="24"/>
+        <image name="CreateTabUnselected" width="40" height="23"/>
+        <image name="Textfield" width="404" height="56"/>
+        <image name="calendar" catalog="system" width="128" height="106"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
