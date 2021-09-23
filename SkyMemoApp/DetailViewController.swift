@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  SkyMemoApp
 //
-//  Created by 이유진 on 2021/09/13.
+//  Created by 이유진 on 2021/09/23.
 //
 
 import UIKit
