@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A932A9826FA404C0043539D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A932A9726FA404C0043539D /* CalendarViewController.swift */; };
+		6AC2183926FCCBFE006AA74F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC2183826FCCBFE006AA74F /* DetailViewController.swift */; };
 		6AE9687226EE407E0026064F /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AE9686C26EE407E0026064F /* NotoSansKR-Medium.otf */; };
 		6AE9687326EE407E0026064F /* NotoSansKR-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AE9686D26EE407E0026064F /* NotoSansKR-Thin.otf */; };
 		6AE9687426EE407E0026064F /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 6AE9686E26EE407E0026064F /* NotoSansKR-Black.otf */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		6A932A9726FA404C0043539D /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		6AC2183826FCCBFE006AA74F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6AE9686C26EE407E0026064F /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
 		6AE9686D26EE407E0026064F /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
 		6AE9686E26EE407E0026064F /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				6A932A9726FA404C0043539D /* CalendarViewController.swift */,
 				DF29F15026FC40B200A11231 /* CalendarCell.swift */,
 				DF29F15226FC423D00A11231 /* CalendarHelper.swift */,
+				6AC2183826FCCBFE006AA74F /* DetailViewController.swift */,
 			);
 			path = SkyMemoApp;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC2183926FCCBFE006AA74F /* DetailViewController.swift in Sources */,
 				6A932A9826FA404C0043539D /* CalendarViewController.swift in Sources */,
 				DF29F15326FC423D00A11231 /* CalendarHelper.swift in Sources */,
 				DF29F15126FC40B200A11231 /* CalendarCell.swift in Sources */,
