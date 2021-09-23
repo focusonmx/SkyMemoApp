@@ -21,7 +21,7 @@ class CalendarHelper {
     
     func monthString(date: Date) -> String {
         let dateFormatter = DateFormatter()
-        dateFormatter.dateFormat = "LLLL"
+        dateFormatter.dateFormat = "LLL"
         return dateFormatter.string(from: date)
     }
     
