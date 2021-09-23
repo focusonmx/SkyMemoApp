@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JAl-eC-NCA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JAl-eC-NCA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -25,13 +26,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="오늘 하늘 기록하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0T-3f-PCw">
-                                <rect key="frame" x="108" y="157.5" width="198" height="36.5"/>
+                                <rect key="frame" x="113.5" y="169.5" width="187" height="29.5"/>
                                 <fontDescription key="fontDescription" name="NotoSansKR-Thin" family="Noto Sans KR" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210903" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="97u-Gh-gur">
-                                <rect key="frame" x="180" y="226.5" width="54" height="25"/>
+                                <rect key="frame" x="178.5" y="231.5" width="57" height="20"/>
                                 <fontDescription key="fontDescription" name="NotoSansKR-Thin" family="Noto Sans KR" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -116,15 +117,31 @@
                     <view key="view" contentMode="scaleToFill" id="yc2-e0-7hs">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Mon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hpt-ws-ucL">
+                                <rect key="frame" x="161.5" y="147" width="91.5" height="81"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WvQ-ku-RRT">
+                                <rect key="frame" x="87" y="236" width="240" height="128"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="DKG-19-8AN"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hpt-ws-ucL" firstAttribute="centerX" secondItem="yc2-e0-7hs" secondAttribute="centerX" id="3fe-RI-Pu3"/>
+                            <constraint firstItem="WvQ-ku-RRT" firstAttribute="centerX" secondItem="yc2-e0-7hs" secondAttribute="centerX" id="SOX-WR-emt"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" selectedImage="calendar" catalog="system" id="lb2-as-qL9"/>
                     <navigationItem key="navigationItem" id="iMw-Wu-dM0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t6v-Lq-2sI" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080" y="822"/>
+            <point key="canvasLocation" x="1079.7101449275362" y="821.65178571428567"/>
         </scene>
     </scenes>
     <resources>
