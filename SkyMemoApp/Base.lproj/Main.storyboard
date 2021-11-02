@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="RzN-Vh-moj">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JAl-eC-NCA">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -101,14 +102,14 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhw-rJ-KfI">
-                                <rect key="frame" x="344" y="80" width="30" height="32"/>
+                                <rect key="frame" x="342" y="80" width="32" height="37"/>
                                 <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="17"/>
                                 <state key="normal" title="Edit">
                                     <color key="titleColor" red="0.74890512229999995" green="0.90985727309999997" blue="0.99987798930000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="210903" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SnM-gj-lha">
-                                <rect key="frame" x="173.5" y="182.5" width="67" height="23.5"/>
+                                <rect key="frame" x="175.5" y="177" width="63" height="29"/>
                                 <fontDescription key="fontDescription" name="NotoSansKR-Thin" family="Noto Sans KR" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -160,13 +161,13 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uqB-Kg-ovm">
-                                <rect key="frame" x="186" y="660" width="42" height="20"/>
+                                <rect key="frame" x="186" y="657.5" width="42" height="25"/>
                                 <fontDescription key="fontDescription" name="NotoSansKR-Thin" family="Noto Sans KR" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="yx2-7I-3ng">
-                                <rect key="frame" x="145.5" y="582" width="123" height="28"/>
+                                <rect key="frame" x="129.5" y="581.5" width="155.5" height="26"/>
                                 <color key="pageIndicatorTintColor" red="0.74890512229999995" green="0.90985727309999997" blue="0.99987798930000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="currentPageIndicatorTintColor" red="0.51753795150000004" green="0.70985311269999996" blue="0.9998767972" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </pageControl>
@@ -208,7 +209,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="날짜" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4L-ku-gn1">
-                                <rect key="frame" x="107" y="188" width="200" height="20"/>
+                                <rect key="frame" x="107" y="183" width="200" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="u2t-sY-b4i"/>
                                 </constraints>
@@ -242,7 +243,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2lA-4s-Roi">
-                                <rect key="frame" x="173.5" y="765" width="67" height="33"/>
+                                <rect key="frame" x="172.5" y="759" width="69" height="39"/>
                                 <fontDescription key="fontDescription" name="NotoSansKR-Regular" family="Noto Sans KR" pointSize="18"/>
                                 <state key="normal" title="Remove">
                                     <color key="titleColor" systemColor="systemRedColor"/>
